@@ -1,15 +1,15 @@
 .aside .logo a::before{
-    border-top: 4px solid #016FBD;     /* ec1839 */
-    border-left: 4px solid #016FBD;
+    border-top: 4px solid #ffb400;
+    border-left: 4px solid #ffb400;
 }
 
 .aside .logo a::after{
-    border-right: 4px solid #016FBD;
-    border-bottom: 4px solid #016FBD;
+    border-right: 4px solid #ffb400;
+    border-bottom: 4px solid #ffb400;
 }
 
+body.dark .aside .nav li a:hover, 
 .aside .nav li a:hover, 
-body.dark .aside .nav li a:hover,
 .blog .blog-item-inner .blog-info .blog-tags a,
 .portfolio .portfolio-item .portfolio-info .icon .fa,
 .lightbox .lightbox-controls .prev-item .fa,
@@ -21,7 +21,7 @@ body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 body.dark .aside .nav li a.active,
 .aside .nav li a.active{
-    color: #016FBD;
+    color: #ffb400;
 }
 
 .btn,
@@ -36,10 +36,9 @@ body.dark .aside .nav li a.active,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
 .home .intro .social-links a{
-    /* background-color: #ec1839; */
-    background: linear-gradient(to right, #016FBD, #11A7DA);
+    background-color: #ffb400;
 }
 
 .portfolio .portfolio-filter button.active{
-    border-color: #016FBD;
+    border-color: #ffb400;
 }
